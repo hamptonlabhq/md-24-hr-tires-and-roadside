@@ -92,6 +92,13 @@ class SiteNavbar extends HTMLElement {
       closeMenuButton.addEventListener("click", () => {
         mobileMenu.classList.add("hidden");
       });
+
+      // Close menu when clicking any link
+      mobileMenu.addEventListener("click", (e) => {
+        if (e.target.tagName === "A") {
+          mobileMenu.classList.add("hidden");
+        }
+      });
     }
 
     // Handle the accordion functionality within the mobile menu
