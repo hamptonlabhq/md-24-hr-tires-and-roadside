@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #c02c35;
+  --color-brand-primary-100: #8d232f;
+  --color-brand-primary-light: #f2d5d7;
+  --color-beige: #f6f5f2;
+  --color-facebook: #1877f2;
+  --color-facebook-100: #135fc2;
+
+  --color-black-100: #222222;
+
+  --color-gray-bg: #f7f7f7;
+
+  /* Heights */
+  --header-height: 4rem;
+}
+html {
+  scroll-behavior: smooth;
+}
